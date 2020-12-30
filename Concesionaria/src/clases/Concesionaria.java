@@ -78,8 +78,8 @@ public class Concesionaria {
 		DecimalFormat formatea = new DecimalFormat("###,###.00");
 		for (Vehiculo v : vehiculos) {
 		String validos = letra;
-          for (int i = 0; i < v.getMarca().length(); i++) {
-            char caracter = v.getMarca().charAt(i);
+          for (int i = 0; i < v.getModelo().length(); i++) {
+            char caracter = v.getModelo().charAt(i);
             if (validos.indexOf(caracter) != -1) {
             	
                 System.out.println("Vehículo que contiene en el modelo la letra '" + letra + "' : " +v.getMarca() + " " + v.getModelo() +" $"+ formatea.format(v.getPrecio()));
