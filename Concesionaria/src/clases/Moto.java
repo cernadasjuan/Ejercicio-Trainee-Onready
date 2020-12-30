@@ -16,7 +16,7 @@ public Moto(String marca, String modelo, double precio,int cantidadCC) {
 @Override
 public String toString() {
 	DecimalFormat formatea = new DecimalFormat("###,###.00");
-	return super.toString() + "Cilindrada: " + cantidadCC + " // "+ "Precio: $" + formatea.format(super.getPrecio());
+	return super.toString() + "Cilindrada: " + cantidadCC + "cc // "+ "Precio: $" + formatea.format(super.getPrecio());
 }
 
 }

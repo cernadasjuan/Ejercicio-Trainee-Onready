@@ -93,7 +93,7 @@ public class Concesionaria {
 		Vehiculo v1 = new Auto("Peugeot", "206", 200000, 4);
 		Vehiculo v2 = new Moto("Honda", "Titan", 60000, 125);
 		Vehiculo v3 = new Auto("Peugeot", "208", 250000, 5);
-		Vehiculo v4 = new Auto("Yamaha", "YBR", 80500.50, 160);
+		Vehiculo v4 = new Moto("Yamaha", "YBR", 80500.50, 160);
 
 		vehiculos.add(v1);
 		vehiculos.add(v2);
