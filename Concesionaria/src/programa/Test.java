@@ -17,7 +17,7 @@ public class Test {
 		c1.mostrarVehiculoMasBarato();
 		c1.mostrarVehiculoConteniendoLetra("Y");
 		System.out.println("=============================");
-		c1.vehiculosDeMenorAMayor();
+		c1.vehiculosDeMayorAMenor();
 	}
 
 }

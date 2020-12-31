@@ -20,7 +20,7 @@ public class Concesionaria {
 		}
 	}
 	
-	public void vehiculosDeMenorAMayor(){
+	public void vehiculosDeMayorAMenor(){
 		ArrayList <Vehiculo> aux = new ArrayList<>();
 		
 		while (vehiculos.size()!= 0) {
